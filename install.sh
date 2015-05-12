@@ -19,3 +19,9 @@ brew install rbenv
 brew install ruby-build
 brew cask install anvil
 brew install ffind
+brew install git
+
+cd ~
+git clone git://github.com/cawcaw/dotfiles
+dotfiles/install
+
