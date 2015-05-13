@@ -20,6 +20,8 @@ brew install ruby-build
 brew cask install anvil
 brew install ffind
 brew install git
+brew install ffind
+brew install z
 
 cd ~
 git clone git://github.com/cawcaw/dotfiles
