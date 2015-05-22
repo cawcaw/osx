@@ -16,7 +16,9 @@ formulas=(boot2docker
           git
           ffind
           tree
-          z)
+          z
+          rbenv
+          ruby-build)
 brew install ${formulas[@]}
 
 brew install caskroom/cask/brew-cask
@@ -25,10 +27,13 @@ casks=(anvil
        transmission
        firefox\ --HEAD
        virtualbox
-       postgres)
+       postgres
+       vlc
+       java)
 brew cask install ${casks[@]}
 
 cd ~
 git clone git://github.com/cawcaw/dotfiles
 dotfiles/install
 
+echo "if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi" >> ~/.zshrc
