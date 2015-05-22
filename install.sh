@@ -24,7 +24,8 @@ casks=(anvil
        lighttable
        transmission
        firefox\ --HEAD
-       virtualbox)
+       virtualbox
+       postgres)
 brew cask install ${casks[@]}
 
 cd ~
