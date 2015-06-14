@@ -14,7 +14,6 @@ formulas=(boot2docker
           ruby-build
           ffind
           git
-          ffind
           tree
           z)
 brew install ${formulas[@]}
